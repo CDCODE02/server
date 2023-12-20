@@ -1,1 +1,42 @@
-Server website test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SERVER - Home</title>
+  </head>
+  <body>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+      section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        section {
+          height: 100%; /* Set height to 100% for smaller screens */
+        }
+      }
+    </style>
+
+    <section>
+      <img src="svr.jpeg" alt="Description of the image" />
+    </section>
+  </body>
+</html>
