@@ -4,6 +4,9 @@ import Laptop from "../assets/serheadpicAB.png";
 const Analytics = () => {
   return (
     <div className="w-full bg-black text-white py-16 px-4">
+      <h1 className="text-[#00df9a] font-bold text-4xl p-2 text-center flex items-center justify-center">
+        ABOUT
+      </h1>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
         <div className="flex flex-col justify-center">

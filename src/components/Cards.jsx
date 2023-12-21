@@ -6,6 +6,9 @@ import Triple from "../assets/Phase-3-removebg-preview.png";
 const Cards = () => {
   return (
     <div className="w-full py-[10rem] px-4 bg-black">
+      <h1 className="text-[#00df9a] font-bold text-4xl p-2 mb-12 text-center flex items-center justify-center">
+        ROADMAP
+      </h1>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8">
         <div className="w-full shadow-xl bg-[#9945FF] flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
