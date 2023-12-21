@@ -35,7 +35,7 @@ const Footer = () => {
           <ul>
             <li className="py-2 text-sm cursor-pointer">Blog</li>
             <li className="py-2 text-sm cursor-pointer">Jobs</li>
-            <li className="py-2 text-sm cursor-pointer">Careers</li>
+            <li className="py-2 text-sm cursor-pointer">Partner's</li>
             <li className="py-2 text-sm cursor-pointer">Utility</li>
           </ul>
         </div>
@@ -43,6 +43,7 @@ const Footer = () => {
           <h6 className="font-medium  text-[#00df9a]">Documentation</h6>
           <ul>
             <li className="py-2 text-sm cursor-pointer">Whitepaper</li>
+            <li className="py-2 text-sm cursor-pointer">Careers</li>
           </ul>
         </div>
         {/* <div>
