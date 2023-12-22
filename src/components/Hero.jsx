@@ -12,6 +12,7 @@ const Hero = () => {
         backgroundPosition: "center",
         margin: 0,
         maxWidth: "100%",
+        height: "88vh", // Adjusted height to 80% of the viewport height
       }}
     >
       <p className="text-[#00df9a] font-bold p-2">
