@@ -27,7 +27,7 @@ const Footer = () => {
             <li className="py-2 text-sm cursor-pointer">Home</li>
             <li className="py-2 text-sm cursor-pointer">About</li>
             <li className="py-2 text-sm cursor-pointer">Roadmap</li>
-            <li className="py-2 text-sm cursor-pointer">Tokenomices</li>
+            <li className="py-2 text-sm cursor-pointer">Tokenomics</li>
           </ul>
         </div>
         <div>

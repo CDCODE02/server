@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <Analytics />
       <Cards />
-      {/* <Tokenomice /> */}
+      <Tokenomice />
       <Newsletter />
       <Footer />
     </div>
