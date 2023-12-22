@@ -20,7 +20,7 @@ const Tokenomice = () => {
   return (
     <div className="w-full bg-black text-white py-16 px-4">
       <h2 className="text-[#00df9a] font-bold text-4xl p-2 text-center">
-        TOKENOMICE
+        TOKENOMICS
       </h2>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 gap-8">
         <div className="w-full md:w-[500px] mx-auto my-4">

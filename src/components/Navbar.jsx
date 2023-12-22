@@ -18,7 +18,7 @@ const Navbar = () => {
         <li className="p-4 uppercase cursor-pointer">About</li>
 
         <li className="p-4 uppercase cursor-pointer">Roadmap</li>
-        <li className="p-4 uppercase cursor-pointer">Tokenomices</li>
+        <li className="p-4 uppercase cursor-pointer">TOKENOMICS</li>
         <li className="p-4 uppercase cursor-pointer">community</li>
         <button className="bg-[#00df9a] w-[100px] rounded-md font-medium my-3 py-2 text-black">
           DOC'S
@@ -41,7 +41,7 @@ const Navbar = () => {
         <li className="p-4 border-b border-gray-600 uppercase">Home</li>
         <li className="p-4 border-b border-gray-600 uppercase">About</li>
         <li className="p-4 border-b border-gray-600 uppercase">Roadmap</li>
-        <li className="p-4 border-b border-gray-600 uppercase">Tokenomices</li>
+        <li className="p-4 border-b border-gray-600 uppercase">TOKENOMICS</li>
         <li className="p-4 border-b border-gray-600 uppercase">Community</li>
         <div className="flex justify-center items-center">
           <button className="bg-[#00df9a] w-[100px] rounded-md font-medium my-3 mx-auto py-2 text-black">
