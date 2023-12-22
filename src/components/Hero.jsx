@@ -14,7 +14,7 @@ const Hero = () => {
         maxWidth: "100%",
         height: "88vh", // Default height for larger screens
         "@media (max-width: 600px)": {
-          height: "80vh",
+          height: "65vh",
         },
       }}
     >
