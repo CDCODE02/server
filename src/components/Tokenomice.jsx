@@ -8,11 +8,17 @@ import "chart.js/auto";
 const Tokenomice = () => {
   // Sample data for the pie chart
   const data = {
-    labels: ["Liquidity", "Burn", "Airdrop"],
+    labels: ["Liquidity", "Public Sale", "Burn", "Marketing", "Airdrop"],
     datasets: [
       {
-        data: [85, 10, 5],
-        backgroundColor: ["#00df9a", "#9945FF", "#FFD700"], // Adjust colors as needed
+        data: [40, 40, 15, 3, 2],
+        backgroundColor: [
+          "#00df9a",
+          "#FF45FF",
+          "#9945FF",
+          "#FF00DF",
+          "#FFD700",
+        ], // Adjust colors as needed
       },
     ],
   };
@@ -38,20 +44,25 @@ const Tokenomice = () => {
             Symbol: <span className="text-[#00df9a]">SVR</span>
           </h1>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Total Supply:{" "}
-            <span className="text-[#00df9a]">100,000,000,000</span>
+            Total Supply: <span className="text-[#00df9a]">18,000,000,000</span>
           </h1>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Liquidity lock: <span className="text-[#00df9a]">40 Years</span>
           </h1>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Airdrop: <span className="text-[#00df9a]">5%</span>
+            Airdrop: <span className="text-[#00df9a]">2%</span>
           </h1>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Burn: <span className="text-[#00df9a]">10%</span>
+            Marketing: <span className="text-[#00df9a]">3%</span>
           </h1>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
-            Liquidity: <span className="text-[#00df9a]">85%</span>
+            Burn: <span className="text-[#00df9a]">15%</span>
+          </h1>
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+            Public Sale: <span className="text-[#00df9a]">40%</span>
+          </h1>
+          <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
+            Liquidity: <span className="text-[#00df9a]">40%</span>
           </h1>
         </div>
       </div>
