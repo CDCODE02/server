@@ -68,10 +68,12 @@ const Tokenomice = () => {
       </div>
       <div style={{display:"flex", justifyContent:"center", marginTop:"10px"}}>
         <a 
-          style={{background:"white", color:"black", padding:"10px 20px", borderRadius:"10px"}} 
+          className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3"
+          style={{textAlign: "center"}} 
           target="_blank" 
+          rel="noreferrer"
           href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6ztpk66ufp9gqY7g68DySryRox3VczJRssJrQGM4fAr4&inputAmount=1&fixed=in">
-            Buy
+            Buy Now
         </a>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { FaGithubSquare, FaTelegram, FaTwitterSquare } from "react-icons/fa";
 import moonguys from "../assets/serheadpic.png";
 
 const Footer = () => {
+  const handleClick = (path)=> window.open(path, "_blank")
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
@@ -15,8 +16,8 @@ const Footer = () => {
           its unique Features and the community-driven.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaTelegram size={30} />
-          <FaTwitterSquare size={30} />
+          <FaTelegram onClick={()=>handleClick("https://t.me/server_sol")} size={30} />
+          <FaTwitterSquare onClick={()=>handleClick("https://x.com/server_sol_")} size={30} />
           <FaGithubSquare size={30} />
         </div>
       </div>
@@ -42,7 +43,7 @@ const Footer = () => {
         <div>
           <h6 className="font-medium  text-[#00df9a]">Documentation</h6>
           <ul>
-            <li className="py-2 text-sm cursor-pointer">Whitepaper</li>
+            <li className="py-2 text-sm cursor-pointer"><a target="_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing">Whitepaper</a></li>
             <li className="py-2 text-sm cursor-pointer">Careers</li>
           </ul>
         </div>
