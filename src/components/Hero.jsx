@@ -4,7 +4,7 @@ import backgroundImage from "../assets/serbg2.jpeg";
 
 const Hero = () => {
   return (
-    <div
+    <div id="home"
       className="w-full h-screen mx-auto text-center flex flex-col justify-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,
@@ -48,7 +48,7 @@ const Hero = () => {
           ethos behind its development.
         </p>
         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
-          LEARN MORE
+          <a href="#about">LEARN MORE</a>
         </button>
       </>
     </div>

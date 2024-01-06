@@ -3,7 +3,7 @@ import Laptop from "../assets/serheadpicAB.png";
 
 const Analytics = () => {
   return (
-    <div className="w-full bg-black text-white py-16 px-4">
+    <div id="about" className="w-full bg-black text-white py-16 px-4">
       <h1 className="text-[#00df9a] font-bold text-4xl p-2 text-center flex items-center justify-center">
         ABOUT
       </h1>
@@ -37,7 +37,7 @@ const Analytics = () => {
             Solana.
           </p>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            LEARN MORE
+            <a target="_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing">LEARN MORE</a>
           </button>
         </div>
       </div>
