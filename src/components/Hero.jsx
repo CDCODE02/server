@@ -48,7 +48,7 @@ const Hero = () => {
           ethos behind its development.
         </p>
         <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
-          LEARN MORE
+          <a target="_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing">LEARN MORE</a>
         </button>
       </>
     </div>

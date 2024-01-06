@@ -52,7 +52,8 @@ const Navbar = () => {
         <li onClick={()=> handleCloseNav()} className="p-4 border-b border-gray-600 uppercase"><a target="_blank" rel="noreferrer" href="https://t.me/server_sol">Community</a></li>
         <div className="flex justify-center items-center">
           <button onClick={()=> handleCloseNav()} className="bg-[#00df9a] w-[100px] rounded-md font-medium my-3 mx-auto py-2 text-black">
-            LEARN MORE
+            <a href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing" target="_blank" rel="noopener noreferrer">LEARN MORE</a>
+            
           </button>
         </div>
       </ul>

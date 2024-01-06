@@ -37,7 +37,7 @@ const Analytics = () => {
             Solana.
           </p>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            LEARN MORE
+            <a target="_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing">LEARN MORE</a>
           </button>
         </div>
       </div>
