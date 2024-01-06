@@ -4,7 +4,7 @@ import backgroundImage from "../assets/serbg2.jpeg";
 
 const Hero = () => {
   return (
-    <div
+    <div id="home"
       className="w-full h-screen mx-auto text-center flex flex-col justify-center"
       style={{
         backgroundImage: `url(${backgroundImage})`,

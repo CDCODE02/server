@@ -24,10 +24,10 @@ const Footer = () => {
         <div>
           <h6 className="font-medium  text-[#00df9a]">Links</h6>
           <ul>
-            <li className="py-2 text-sm cursor-pointer">Home</li>
-            <li className="py-2 text-sm cursor-pointer">About</li>
-            <li className="py-2 text-sm cursor-pointer">Roadmap</li>
-            <li className="py-2 text-sm cursor-pointer">Tokenomics</li>
+            <li className="py-2 text-sm cursor-pointer"><a href="#home">Home</a></li>
+            <li className="py-2 text-sm cursor-pointer"><a href="#about">About</a></li>
+            <li className="py-2 text-sm cursor-pointer"><a href="#roadmap">Roadmap</a></li>
+            <li className="py-2 text-sm cursor-pointer"><a href="#tokenomics">Tokenomics</a></li>
           </ul>
         </div>
         <div>

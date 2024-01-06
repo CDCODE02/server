@@ -14,11 +14,11 @@ const Navbar = () => {
       <img className="w-[55px] mx-auto my-4" src={moonguys} alt="/" />
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">SERVER</h1>
       <ul className="hidden md:flex">
-        <li className="p-4 uppercase cursor-pointer text-[#00df9a]">Home</li>
-        <li className="p-4 uppercase cursor-pointer">About</li>
+        <li className="p-4 uppercase cursor-pointer text-[#00df9a]"><a href="#home">Home</a></li>
+        <li className="p-4 uppercase cursor-pointer"><a href="#about">About</a></li>
 
-        <li className="p-4 uppercase cursor-pointer">Roadmap</li>
-        <li className="p-4 uppercase cursor-pointer">TOKENOMICS</li>
+        <li className="p-4 uppercase cursor-pointer"><a href="#roadmap">Roadmap</a></li>
+        <li className="p-4 uppercase cursor-pointer"><a href="#tokenomics">TOKENOMICS</a></li>
         <li className="p-4 uppercase cursor-pointer">community</li>
         <button className="bg-[#00df9a] w-[100px] rounded-md font-medium my-3 py-2 text-black">
           DOC'S
@@ -38,10 +38,10 @@ const Navbar = () => {
           <img className="w-[55px] mx-auto my-4" src={moonguys} alt="/" />
           <h1 className="w-full text-3xl font-bold text-[#00df9a]">SERVER</h1>
         </div>
-        <li className="p-4 border-b border-gray-600 uppercase">Home</li>
-        <li className="p-4 border-b border-gray-600 uppercase">About</li>
-        <li className="p-4 border-b border-gray-600 uppercase">Roadmap</li>
-        <li className="p-4 border-b border-gray-600 uppercase">TOKENOMICS</li>
+        <li className="p-4 border-b border-gray-600 uppercase"><a href="#home">Home</a></li>
+        <li className="p-4 border-b border-gray-600 uppercase"><a href="#about">About</a></li>
+        <li className="p-4 border-b border-gray-600 uppercase"><a href="#roadmap">Roadmap</a></li>
+        <li className="p-4 border-b border-gray-600 uppercase"><a href="#tokenomics">TOKENOMICS</a></li>
         <li className="p-4 border-b border-gray-600 uppercase">Community</li>
         <div className="flex justify-center items-center">
           <button className="bg-[#00df9a] w-[100px] rounded-md font-medium my-3 mx-auto py-2 text-black">

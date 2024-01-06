@@ -24,7 +24,7 @@ const Tokenomice = () => {
   };
 
   return (
-    <div className="w-full bg-black text-white py-16 px-4">
+    <div id="tokenomics" className="w-full bg-black text-white py-16 px-4">
       <h2 className="text-[#00df9a] font-bold text-4xl p-2 text-center">
         TOKENOMICS
       </h2>
@@ -65,6 +65,14 @@ const Tokenomice = () => {
             Liquidity: <span className="text-[#00df9a]">40%</span>
           </h1>
         </div>
+      </div>
+      <div style={{display:"flex", justifyContent:"center", marginTop:"10px"}}>
+        <a 
+          style={{background:"white", color:"black", padding:"10px 20px", borderRadius:"10px"}} 
+          target="_blank" 
+          href="https://raydium.io/swap/?inputCurrency=sol&outputCurrency=6ztpk66ufp9gqY7g68DySryRox3VczJRssJrQGM4fAr4&inputAmount=1&fixed=in">
+            Buy
+        </a>
       </div>
     </div>
   );

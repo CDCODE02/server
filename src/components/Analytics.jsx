@@ -3,7 +3,7 @@ import Laptop from "../assets/serheadpicAB.png";
 
 const Analytics = () => {
   return (
-    <div className="w-full bg-black text-white py-16 px-4">
+    <div id="about" className="w-full bg-black text-white py-16 px-4">
       <h1 className="text-[#00df9a] font-bold text-4xl p-2 text-center flex items-center justify-center">
         ABOUT
       </h1>
