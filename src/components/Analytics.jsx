@@ -10,17 +10,17 @@ const Analytics = () => {
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
         <img className="w-[500px] mx-auto my-4" src={Laptop} alt="/" />
         <div className="flex flex-col justify-center">
-          <p className="text-[#00df9a] font-bold">Understanding SERVER:</p>
+          <p className="text-[#00df9a] font-bold">UNDERSTANDING SERVER:</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             A New Phenomenon
           </h1>
           <p>
-            SERVER is an ecosystem known for its adoption and provision of
-            financial resources, and real economic impact to the users, and its
-            prominence within the broader digital asset landscape. SERVER
-            harnesses the power of community engagement, drawing attention to
-            the fundamental principles of decentralisation, inclusivity, and
-            humour.
+            SERVER, as an ecosystem, assists both developers and traders by
+            providing utilities that facilitate financial resources and have a
+            real economic impact, establishing its prominence within the broader
+            digital asset landscape. SERVER utilises the power of community
+            engagement, drawing attention to the fundamental principles of
+            decentralisation, inclusivity, and humor.
           </p>
           <p className="text-[#00df9a] font-bold">SERVER:</p>
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
@@ -37,7 +37,13 @@ const Analytics = () => {
             Solana.
           </p>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3">
-            <a target="_blank" rel="noreferrer" href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing">LEARN MORE</a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://docs.google.com/presentation/d/1D1mwz-qQcB_QmxSlR0m73UfeGd67PWpCNkw6XCTUW3A/edit?usp=sharing"
+            >
+              LEARN MORE
+            </a>
           </button>
         </div>
       </div>

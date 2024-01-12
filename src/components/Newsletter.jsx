@@ -6,12 +6,13 @@ const Newsletter = () => {
       <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3">
         <div className="lg:col-span-2 my-4">
           <h1 className="md:text-4xl sm:text-3xl text-[#00df9a] text-2xl font-bold py-2">
-            SERVER stands at the intersection of finance,
+            SERVER Ecosystem facilitates Solana launches.
           </h1>
           <p>
             {" "}
-            community, and humour, providing a unique entry point into the world
-            of decentralised finance.
+            As a token deployer, It provides a straightforward token minting
+            lab, a launchpad, and a dedicated DApp for decentralized wallets,
+            making launching on Solana a seamless experience.
           </p>
         </div>
         <div className="my-4">
